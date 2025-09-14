@@ -1,8 +1,6 @@
 import os
 import csv
 
-
-
 def get_quality(sequences: dict) -> dict:
     result = {}
     quality = 0
@@ -29,7 +27,7 @@ def get_quality(sequences: dict) -> dict:
     #7 Asymmetrical base pairing
     init_p = seq_p_s[0]
     init_g = seq_g_a[1]
-    meets_7 = 1 if init_p in ['C', 'G'] and init_g in ['A', 'U'] else 0
+    meets_7 = 2 if init_p in ['C', 'G'] and init_g in ['A', 'U'] else 0
     if meets_7:
         quality += 2
 
