@@ -1,4 +1,4 @@
-# siRNAutoCan (siRNA automatic candidates qualification)
+# siRNAutoCanQ (siRNA Automatic Candidates Qualification)
 
 This Python tool automates the evaluation of siRNA candidates using the siDirect 2.0 web service and scores them based on criteria from Fakhr et al. (2016). It generates two CSV files: one with raw siRNA candidates from siDirect and another with quality scores derived from the article's Excel-based methodology.
 
